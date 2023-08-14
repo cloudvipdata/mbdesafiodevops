@@ -11,17 +11,7 @@ pipeline {
                 sh 'terraform plan'
             }
         }
-        stage('Terraform Init') {
-            steps {
-                
-            }
-        }
 
-        stage('AZ LOGIN') {
-            steps {
-
-            }
-        }
 
     }
 }
