@@ -15,7 +15,7 @@ pipeline {
 
         stage('AZ LOGIN') {
             steps {
-                withCredentials([azureServicePrincipal('azureServicePrincipal')]) {
+                withCredentials([azureServicePrincipal('SP_AZ')]) {
                 sh 'az login --service-principal -u ${AZURE_CLIENT_ID} -p ${AZURE_CLIENT_SECRET} --tenant ${AZURE_TENANT_ID}'
                }
                 sh 'terraform init'
