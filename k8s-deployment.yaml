@@ -13,8 +13,8 @@ spec:
         app: python-app
     spec:
       containers:
-      - name: my-python-app
-        image: mibancoaz1001acr.azurecr.io/mypython-app
+      - name: mibancoaz1001acr
+        image: mibancoaz1001acr.azurecr.io/mibancoaz1001acr
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
