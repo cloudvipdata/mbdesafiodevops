@@ -1,4 +1,4 @@
-# mbdesafiodevops
+![imagen](https://github.com/cloudvipdata/mbdesafiodevops/assets/141878891/a54105e4-42b9-4130-aca8-68f45f94edad)# mbdesafiodevops
 1. IAC
    La carpeta 01_iac, Define un Archivo main.tf de terraform para aprovisionar la Infraestructura ACR y AKS
 Pre-requisito:
@@ -25,7 +25,8 @@ Despliegue de Forma 2:
    - Setear el .Config del Cluster AKS (Credentials)
   
      a. Crea un pipeline Jenkins y ejecutala el JenkinsFile.
-     ![imagen](https://github.com/cloudvipdata/mbdesafiodevops/assets/141878891/a6f873d5-b914-4141-860a-141dbe389df1)
+  
+   ![imagen](https://github.com/cloudvipdata/mbdesafiodevops/assets/141878891/519489af-fa13-4d52-9e5e-1c4ad3ab5d82)
 
       
    
