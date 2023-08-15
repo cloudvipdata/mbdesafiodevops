@@ -14,9 +14,8 @@ Despliegue Forma 1:
 Despliegue de Forma 2:
    Desde el Servidor de Jenkins:
    
-      1. Crea un conexión entre el repositorio de version y jenkins    
-      2. Crea un Pipeline: Ingrese un nombre:
-      ![imagen](https://github.com/cloudvipdata/mbdesafiodevops/assets/141878891/6c8dd193-9677-4841-a790-d29c5df24e30)
+      1. Crear un pipeline en Jenkins y extraiga el Jenkinsfile para ejecutarlo
+   
 
       
    
