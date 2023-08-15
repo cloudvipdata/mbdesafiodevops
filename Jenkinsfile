@@ -5,15 +5,16 @@ pipeline {
         stage('Git') {
             steps {
                 git branch: 'main', credentialsId: 'Github', url: 'https://github.com/cloudvipdata/mbdesafiodevops.git'
+                sh 'ls'
             }
         }
- /*       stage('Terraform Init') {
+       stage('Terraform Init') {
             steps {
                 sh 'azureCLI commands: [[exportVariablesString: '', script: '']], principalCredentialId: 'SP_AZ''
                 sh 'terraform init'
             }
         }
-
+/*
         stage('Terraform Plan') {
             steps {
                 sh 'azureCLI commands: [[exportVariablesString: '', script: '']], principalCredentialId: 'SP_AZ''
