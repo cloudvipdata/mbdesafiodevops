@@ -16,6 +16,16 @@ Despliegue de Forma 2:
    
       1. Crear un pipeline en Jenkins y extraiga el Jenkinsfile para ejecutarlo
    
+#################################################################################
+
+2. Tasks
+   Pre-requisitos:
+   - Setear la clave de Github en Jenkins (Credentials)
+   - Setear el User y Pass del ACR (Credentials)
+   - Setear el .Config del Cluster AKS (Credentials)
+  
+     a. Crea un pipeline Jenkins y ejecutala el JenkinsFile.
+     ![imagen](https://github.com/cloudvipdata/mbdesafiodevops/assets/141878891/a6f873d5-b914-4141-860a-141dbe389df1)
 
       
    
