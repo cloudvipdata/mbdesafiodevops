@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git') {
             steps {
-                git branch: 'checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/cloudvipdata/mbdesafiodevops.git']])'
+                sh 'git branch: 'checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/cloudvipdata/mbdesafiodevops.git']])''
             }
         }
         stage('Terraform Init') {
