@@ -10,7 +10,7 @@ pipeline {
         }
        stage('Terraform Init') {
             steps {
-                sh 'azureCLI commands: [[exportVariablesString: '', script: '']], principalCredentialId: 'SP_AZ''
+                azureCLI commands: [[exportVariablesString: '', script: '']], principalCredentialId: 'SP_AZ'
                 sh 'terraform init'
             }
         }
