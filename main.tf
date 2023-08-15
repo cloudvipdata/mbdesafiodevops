@@ -25,7 +25,7 @@ resource "azurerm_resource_group" "mibancoaz100-rg" {
 }
 
 resource "azurerm_container_registry" "mibancoaz100-acr" {
-  name                = "mibancoaz100acr"
+  name                = "mibancoaz100-acr"
   resource_group_name = azurerm_resource_group.mibancoaz100-rg.name
   location            = azurerm_resource_group.mibancoaz100-rg.location
   sku                 = "Premium"
