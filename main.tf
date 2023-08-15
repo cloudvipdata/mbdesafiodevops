@@ -15,8 +15,8 @@ terraform {
 provider "azurerm" {
   features {}
 
-  subscription_id = "2e2fa1b5-ea13-4494-8105-4ef621949c4f"
-  tenant_id       = "61c17db1-d7e5-43f7-b219-fb323f6d9991"
+  subscription_id = "708a34d4-d5f8-4550-a158-8434704ebde3"
+  tenant_id       = "80fbce9b-7867-4bf4-8e92-fe6adb722356"
 }
 
 resource "azurerm_resource_group" "mibancoaz100-rg" {
