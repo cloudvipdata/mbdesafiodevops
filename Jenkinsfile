@@ -7,7 +7,7 @@ pipeline {
                 git branch: 'main', credentialsId: 'Github', url: 'https://github.com/cloudvipdata/mbdesafiodevops.git'
             }
         }
-        stage('Terraform Init') {
+ /*       stage('Terraform Init') {
             steps {
                 sh 'azureCLI commands: [[exportVariablesString: '', script: '']], principalCredentialId: 'SP_AZ''
                 sh 'terraform init'
@@ -27,5 +27,6 @@ pipeline {
                 sh 'terraform -auto-approve'
             }
         }
+        */
     }
 }
