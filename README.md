@@ -15,10 +15,13 @@ Despliegue de Forma 2:
    Desde el Servidor de Jenkins:
       1. Crea un conexión entre el repositorio de version y jenkins
        ![imagen](https://github.com/cloudvipdata/mbdesafiodevops/assets/141878891/e9c26fb4-34ba-4955-85d0-6787a921de60)
+      
+      
       2. Crea un Pipeline: Ingrese un nombre:
       
-        ![imagen](https://github.com/cloudvipdata/mbdesafiodevops/assets/141878891/bd572b09-c37a-42aa-a24e-8c68f1d16a34)
+      ![imagen](https://github.com/cloudvipdata/mbdesafiodevops/assets/141878891/2d89ad90-a06f-4184-a2ce-dee42edb72ff)
 
-      3.  
+
+      
 
       
