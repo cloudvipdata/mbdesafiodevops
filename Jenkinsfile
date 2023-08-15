@@ -14,14 +14,14 @@ pipeline {
                 sh 'terraform init'
             }
         }
-/*
+
         stage('Terraform Plan') {
             steps {
-                sh 'azureCLI commands: [[exportVariablesString: '', script: '']], principalCredentialId: 'SP_AZ''
+                azureCLI commands: [[exportVariablesString: '', script: '']], principalCredentialId: 'SP_AZ'
                 sh 'terraform plan'
             }
         }
-
+/*
         stage('Terraform Apply') {
             steps {
                 sh 'azureCLI commands: [[exportVariablesString: '', script: '']], principalCredentialId: 'SP_AZ''
